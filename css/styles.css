@@ -1,31 +1,24 @@
-body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: var(--page-background-color);
-}
-
 :root {
     --page-background-color: #FFFFFF;
-}
-
-:root {
     --brand-color: #4D5AE5;
-}
-
-:root {
     --heading-color: #2E2F42;
-}
-
-:root {
     --address-color: #434455;
-}
-
-:root {
+    --pressed-state-color: #404BBF;
+    --success-color: #31D0AA;
+    --subtle-text-color: #8E8F99;
+    --accent-color: #E7E9FC;
+    --light-backgrounds: #F4F4FD;
     --font-size: 16px;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--address-color);
+    background-color: var(--page-background-color);
+}
+
 .button-item:hover {
-    background-color: #404BBF;
+    background-color: var(--pressed-state-color);
 }
 
 .button-item:active,
@@ -44,19 +37,19 @@ body {
 .nav-link {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: var(--font-size);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--heading-color);
 }
 
 .page-nav .nav-link:hover {
-    color: #404BBF;
+    color: var(--pressed-state-color);
 }
 
 .nav-link:active,
 .nav-link:focus {
-    color: #404BBF;
+    color: var(--pressed-state-color);
 }
 
 .address-block {
@@ -65,19 +58,19 @@ body {
 
 .address {
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: var(--font-size);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--address-color);
 }
 
 .address:hover {
-    color: #404BBF;
+    color: var(--pressed-state-color);
 }
 
 .address:active,
 .address:focus {
-    color: #404BBF;
+    color: var(--pressed-state-color);
 }
 
 .main-block {
@@ -90,7 +83,7 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--page-background-color);
 }
 
 .logo {
@@ -107,7 +100,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
-    color: #f4f4fd;
+    color: var(--light-backgrounds);
     text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -129,40 +122,40 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background-color: #4D5AE5;
+    color: var(--page-background-color);
+    background-color: var(--brand-color);
     cursor: pointer;
 }
 
 .button:hover {
-    background-color: #404BBF;
+    background-color: var(--pressed-state-color);
 }
 
 .button:active,
 .button:focus {
-    background-color: #404BBF;
+    background-color: var(--pressed-state-color);
 }
 
 .button-item {
     font-family: "Roboto", sans-serif;
     color: var(--brand-color);
     line-height: 1.5;
-    font-size: 16px;
+    font-size: var(--font-size);
     font-weight: 500;
     letter-spacing: 0.04em;
-    background-color: #F4F4FD;
+    background-color: var(--light-backgrounds);
     cursor: pointer;
 }
 
 .button-item:hover {
     color: #FFFFFF;
-    background-color: #404BBF;
+    background-color: var(--pressed-state-color);
 }
 
 .button-item:active,
 .button-item:focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--page-background-color);
+    background-color: var(--pressed-state-color);
 }
 
 .about-us .section-heading {
@@ -176,7 +169,7 @@ body {
 
 .about-us .text {
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: var(--font-size);
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -192,7 +185,7 @@ body {
 }
 
 .team-block {
-    background-color: #F4F4FD;
+    background-color: var(--light-backgrounds);
 }
 
 .employees .name {
@@ -206,7 +199,7 @@ body {
 
 .employees .details {
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: var(--font-size);
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -226,7 +219,7 @@ body {
 
 .portfolio-images .details {
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: var(--font-size);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--address-color);
@@ -238,8 +231,8 @@ body {
 
 .text-footer {
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: var(--font-size);
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: var(--light-backgrounds);
 }
