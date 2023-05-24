@@ -97,23 +97,11 @@ body {
 }
 
 .logo-color-footer {
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: 800;
     color: var(--light-backgrounds);
-    text-transform: uppercase;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
 }
 
 .logo-color {
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: 800;
     color: var(--heading-color);
-    text-transform: uppercase;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
 }
 
 .button {
@@ -148,7 +136,7 @@ body {
 }
 
 .button-item:hover {
-    color: #FFFFFF;
+    color: var(--page-background-color);
     background-color: var(--pressed-state-color);
 }
 
